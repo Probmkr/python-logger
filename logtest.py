@@ -1,0 +1,10 @@
+from logger import Logger
+logger = Logger()
+logger.fatal("This is logger.fatal().")
+logger.error("This is logger.error().")
+logger.warning("This is logger.warning().")
+logger.warn("This is logger.warn(). This is same as logger.warning()")
+logger.info("This is logger.info().")
+logger.debug("This is logger.debug().")
+logger.trace("This is logger.trace().")
+logger.error("You can set log type by passing a string as the second argument", "spam")
